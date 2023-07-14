@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 350px;
+    background-color: rgb(25, 25, 25);
+    color: white;
+}
+
+.input-box {
+    background-color: transparent; color: white;
+    width: 305px; height: 50px;
+    font-size: 25px; font-weight: bold;
+}
+
+.input-buttons {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+}
+
+.numpad {
+    max-width: 240px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.numpad button {
+    font-size: 25px; font-weight: bold;
+    width: 70px; height: 70px;
+    margin: 5px;
+    border: 1px solid rgb(51, 51, 51); border-radius: 35px;
+    background-color: rgb(51, 51, 51); color: white;
+}
+
+.operators button {
+    font-size: 25px; font-weight: bold;
+    width: 70px; height: 70px;
+    margin: 5px;
+    border: 1px solid orangered; border-radius: 35px;
+    background-color: orangered; color: white;
+    
+}
